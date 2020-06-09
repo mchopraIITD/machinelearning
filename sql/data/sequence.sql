@@ -1,0 +1,16 @@
+CREATE TABLE sequence (sequence_number INTEGER, VALUE DECIMAL (10,2));
+INSERT INTO sequence VALUES (1, 10.0);
+INSERT INTO sequence VALUES (2, 10.5);
+INSERT INTO sequence VALUES (3, 11.0);
+INSERT INTO sequence VALUES (4, 11.0);
+INSERT INTO sequence VALUES (5,	10.5);
+INSERT INTO sequence VALUES (6,	11.5);
+INSERT INTO sequence VALUES (7,	12.0);
+INSERT INTO sequence VALUES (8,	13.0);
+INSERT INTO sequence VALUES (9, 15.0);
+INSERT INTO sequence VALUES (10, 13.5);
+INSERT INTO sequence VALUES (11, 13.0);
+INSERT INTO sequence VALUES (12, 12.5);
+INSERT INTO sequence VALUES (13, 12.0);
+INSERT INTO sequence VALUES (14, 12.5);
+INSERT INTO sequence VALUES (15, 11.0);
