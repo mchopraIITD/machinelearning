@@ -19,3 +19,7 @@ int main() {
   d.draw(); 
   return 0; 
 }
+
+/* Output 
+ * Square::draw()
+ */
