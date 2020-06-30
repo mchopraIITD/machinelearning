@@ -1,21 +1,17 @@
 #include <iostream>
 class Shape {
   public:
-  void draw() const;
+  virtual void draw() const {
+  	std::cout << "Shape::draw()" << std::endl;    
+	}
 };
-
-void Shape::draw() const {
-  std::cout << "Shape::draw()" << std::endl;    
-}
 
 class Square : public Shape {
   public:
-  void draw() const;
+  void draw() const {
+  	std::cout << "Square::draw()" << std::endl; 
+	}
 };
-
-void Square::draw() const {
-  std::cout << "Square::draw()" << std::endl; 
-}
 
 int main() {
   Square s;
