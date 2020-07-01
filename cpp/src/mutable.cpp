@@ -1,4 +1,8 @@
 #include <iostream>
+/* In the example below getData is a logically 
+ * const function, it returns cachedData_
+ * If cachedData is not set then it sets it and return 
+ */
 class Foo {
 	public:
 	int getData() const {
